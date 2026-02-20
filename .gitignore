@@ -15,7 +15,8 @@ env/
 .idea/
 
 # data
-*.csv
+data/eua_trading/
+data/ttf_trading/
 
 # tests
 *.ipynb
