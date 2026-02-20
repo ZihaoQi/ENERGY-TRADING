@@ -56,7 +56,7 @@ def main():
     print("\n4. Training model...")
 
     model = XGBoostModel(config=xgboost_model_config)
-    # model.optimize(X_train, y_train, n_trials=30)
+    model.optimize(X_train, y_train, n_trials=30)
 
     trainer = ModelTrainer(model)
     trainer.train(X_train, y_train)
